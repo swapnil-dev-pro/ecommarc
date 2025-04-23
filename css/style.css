@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: "Merriweather", serif;
+}
+a,a:hover{
+    text-decoration: none;
+}
+ul,ol{
+    list-style-type: none;
+}
+.nav-item{
+    padding: 0 25px;
+    font-size: 16px;
+    font-weight:700;
+}
+.icon i{
+    padding: 0 20px;
+    color: black;
+}
+/* BANNER PART START HARER */
+#bannerpart{
+    padding-top: 155px;
+    padding-bottom: 115px;
+    background-image: url(../images/Mask\ Group\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+
+}
+.bannercard{
+    background-color:#FFF3E3;
+    padding: 65px 40px;
+}
+.bannercard h4{
+    font-size: 16px;
+    color: black;
+    width: 600;
+
+}
+.bannercard h1{
+    color: #B88E2F;
+   font-size: 52px;
+   font-weight: 700px;
+   width: 399px;
+   line-height: 65px;
+}
+.bannercard p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333333;
+    line-height: 24px;
+    margin-bottom:50px;
+    margin-top: 20px;
+
+}
+.bannercard a{
+    padding: 30px 65px;
+    background-color: #B88E2F;
+    color: #FFF3E3;
+    font-size: 16px;
+    text-transform: uppercase;
+    transition: .6s;
+}
+.bannercard a:hover{
+    background-color: azure;
+    color: #B88E2F;
+    border: solid 2px black;
+
+}
+.range{
+    padding: 65px 0px;
+}
+.text h3{
+    font-size:32px ;
+    font-weight:700 ;
+    color: #333333;
+}
+.text p{
+    font-size:20px ;
+    font-weight:400 ;
+    color: #666666;
+    padding-bottom: 60px;
+}
+.iteam h2{
+    text-align: center;
+    font-weight: 700;
+
+}
