@@ -65,7 +65,6 @@ ul,ol{
 .bannercard a:hover{
     background-color: azure;
     color: #B88E2F;
-    border: solid 2px black;
 }
 .range{
     padding: 65px 0px;
@@ -118,8 +117,8 @@ ul,ol{
     opacity: 0;
     visibility: hidden;
     transition:1s;
-}
-.overly a{
+} 
+ .overly a{
     padding: 15px 50px;
     background-color: #FFF3E3;
     position: absolute;
@@ -137,7 +136,7 @@ ul,ol{
 .icons p{
     padding-left:40px;
 }
-.produtitem:hover .overly{
+.produtitem:hover.overly{
     opacity: 1;
     visibility: visible;
 }
@@ -233,3 +232,129 @@ ul,ol{
  .input3 input::placeholder{
     color: #000000;
  }
+ .back-to-top{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+ }
+ .back-to-top i{
+    color: tomato;
+    font-size: 60px;
+ }
+ #nomadAnna{
+    background-color: teal;
+    height: 800px;
+    padding: 100px 0px;
+ }
+.box{
+    margin-top: 100px;
+    background-color: tomato;
+    height:150px;
+    width:300px;
+    border-radius: 20px;
+    padding: 100px 0px;
+}
+.swapnilgf{
+    margin-top: 100px;
+    background-color:yellow;
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+    padding: 100px 0px;
+}
+#counterpart{
+    padding: 100px;
+    background-color: #B88E2F;
+}
+#countdownpart{
+    padding: 100px;
+    background-color:violet;
+}
+#lightboxpart{
+    padding: 100px;
+    background-color:tomato;
+}
+#venoboxpart{
+    padding: 100px;
+    background-color:blanchedalmond;
+}
+.ss button {
+  align-items: center;
+  background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 3px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:active,
+button:hover {
+  outline: 0;
+}
+
+.ss button span {
+  background-color: rgb(5, 6, 45);
+  padding: 16px 24px;
+  border-radius: 6px;
+  width: 100%;
+  height: 100%;
+  transition: 300ms;
+}
+
+ .ss button:hover span {
+  background: none;
+}
+
+.ss button:active {
+  transform: scale(0.9);
+}
+
+.sliderone{
+    background-image: url(../images/pexels-bohlemedia-1884574.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 250px 0px;
+}
+.two{
+    background-image: url(../images/pexels-bohlemedia-1884576.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.three{
+     background-image: url(../images/pexels-unknown6user-1657328.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.slicl-slider{
+    position: relative;
+}
+
+.card h1{
+    color: rgba(255, 0, 0, 0.724);
+    font-style: 30px;
+    font-weight: 700;
+    margin: 40px 0px
+}
+ul,li{
+    display: flex;
+    justify-content: center;
+    padding: 0px 15px;
+}
